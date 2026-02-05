@@ -1,6 +1,6 @@
 title: Rahul Mallik
 description: Power Electronics Engineer | Specialized in Converter Modeling & Control
-remote_theme: Bilal2453/cayman-docs
+theme: minima
 header_pages:
   - index.md
   - research-projects.md
