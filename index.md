@@ -1,4 +1,4 @@
-# Power Electronics Engineer
+# Senior Power Electronics Engineer
 **Specializing in Converter Modeling, Design, and Advanced Control Systems**
 
 Power Electronics Engineer with a focus on the modeling, design, optimization, and control of high-performance power conversion systems. Expertise includes **resonant converters**, **grid-forming inverters**, and **high-frequency isolated medium-voltage modular converters** for renewable energy (PV and wind) and electric drive applications.
