@@ -5,8 +5,7 @@ title: Research Projects
 ## Isolated DC-DC Topologies (QAB)
 ![System Diagram](/assets/images/System_diagram.png)
 *Figure 1: Control architecture and system-level diagram of the modular converter system.*
-During my research at the **University of Texas at Austin** and **University of Washington**, I developed control for a novel modular power conversion architecture using a Quadruple Active Bridge (QAB) topology to interface PV sources with medium-voltage (13.2kV) grids. This system utilizes three single-phase inverters on the secondary side, series-connected to achieve medium-voltage operation while maintaining high-frequency galvanic isolation through planar transformers. By strategically interleaving the inverter stages, 120 Hz power ripples are naturally canceled at the common primary DC link, eliminating the need for bulky, low-reliability electrolytic capacitors
-
+During my research at the **University of Texas at Austin** and **University of Washington**, I developed control for a novel modular power conversion architecture using a Quadruple Active Bridge (QAB) topology to interface PV sources with medium-voltage (13.2kV) grids.
 
 ### Decentralized Control of Series-Connected Modules
 * **Unified Control:** Designed an architecture for simultaneous MPPT, DC-link regulation, and AC-side power control.
