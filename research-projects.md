@@ -31,4 +31,18 @@ During my research at the **University of Texas at Austin** and **University of 
 Each module achieved a peak **96.5% efficiency** for rated conditions of 250 V dc input and 1 kW peak PV power and a peak **97.1% efficiency** for 1kV dc input and 7.5 kW peak PV power.
 
 ---
+## Three-Phase Grid-Forming (GFM) Inverter Design
+I designed and built the  5 kVA three-phase two-level inverter at the **University of Texas at Austin**. Using these inverters, I demonstrated the design and interoperability of grid-forming inverters using heterogeneous control laws (dVOC, Droop, and VSM) to ensure grid stability and seamless power sharing. The PCB files and design documnets are here: [unifi link](https://github.com/unifi-consortium/ThreePhaseGFM_C2000).
 
+### Hardware Development & Specifications
+* **High-Efficiency Design:** Designed and manufactured a **400 Vdc, 5 kVA three-phase 2-level inverter** featuring SiC MOSFETs for high-frequency operation and power density.
+* **Embedded Control:** Fully implemented on the **TI C2000 (F28379D) MCU**, managing high-speed current and voltage loops alongside advanced synchronization algorithms ([codes](https://github.com/unifi-consortium/ThreePhaseGFM_C2000)).
+* **Passive Filtering:** Integrated L-C-L filter stages ($L_f, C_f, L_g$) optimized for grid-interactive operation and harmonic suppression. 
+
+### Interoperability & Grid-Forming Control
+* **Heterogeneous Control Integration:** Demonstrated stable parallel operation of multiple inverters using a mix of **Dispatchable Virtual Oscillator Control (dVOC)**, **Droop**, and **Virtual Synchronous Machine (VSM)** controllers.
+* **Decentralized Synchronization:** Verified autonomous frequency and phase synchronization at the Point of Common Coupling (PCC) without the need for inter-inverter communication.
+* **Dynamic Response Validation:** Experimental results confirm high-fidelity tracking of three-phase currents and voltages, maintaining load balance even during sudden grid transients or setpoint changes.
+
+![Grid-Forming Interoperability Results](/assets/images/HW_3phinv.png)
+*Figure 6: Experimental waveforms showing the interoperability of VSM, Droop, and dVOC controllers on a common grid.*
